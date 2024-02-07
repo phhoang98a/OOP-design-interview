@@ -10,15 +10,6 @@ We'll focus on the following set of requirements while designing the Hotel Manag
 
 - The system should allow customers to cancel their booking. Full refund if the cancelation is done before 24 hours of check-in date.
 
-
-Usecases
-Here are the main Actors in our system:
-- Guest: All guests can search the available rooms, as well as make a booking.
-- Receptionist: Mainly responsible for adding and modifying rooms, creating room bookings, check-in, and check-out customers.
-- System: Mainly responsible for sending notifications for room booking, cancellation, etc.
-- Manager: Mainly responsible for adding new workers.
-- Housekeeper: To add/modify housekeeping record of rooms.
-- Server: To add/modify room service record of rooms.
 """
 
 from enum import Enum
